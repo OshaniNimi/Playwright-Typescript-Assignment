@@ -1,0 +1,15 @@
+{
+  "name": "web-ui-automation-test-assignment",
+  "version": "1.0.0",
+  "description": "harver-web-ui-automation-test-assignment-with-playwright-typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --config=tsConfig.ts --project=chromium"
+  },
+  "author": "Oshani Perera",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.32.3",
+    "prettier": "^2.8.7"
+  }
+}
